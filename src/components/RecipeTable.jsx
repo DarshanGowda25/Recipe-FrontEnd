@@ -202,7 +202,7 @@ const RecipeTable = ({
           <span className="text-sm text-gray-700">
             Showing <span className="font-medium">{(pagination.page - 1) * pagination.limit + 1}</span> to{' '}
             <span className="font-medium">
-              {Math.min(pagination.page * pagination.limit, pagination.total)}
+              {(pagination.page - 1) * pagination.limit + 15}
             </span> of{' '}
             <span className="font-medium">{pagination.total}</span> results
           </span>
