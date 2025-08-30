@@ -18,7 +18,7 @@ const RecipeDrawer = ({ recipe, isOpen, onClose }) => {
           <div className="bg-blue-600 text-white p-4 sticky top-0">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-bold">{recipe.title}</h2>
-              <button onClick={onClose} className="text-white hover:text-gray-200">
+              <button onClick={onClose} className="text-white hover:text-gray-200 cursor-pointer">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
                 </svg>
