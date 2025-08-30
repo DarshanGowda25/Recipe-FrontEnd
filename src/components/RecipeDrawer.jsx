@@ -12,7 +12,7 @@ const RecipeDrawer = ({ recipe, isOpen, onClose }) => {
 
       
       {/* Drawer - fixed to right side with proper width */}
-      <div className={`fixed top-0 right-0 h-full w-4/5 max-w-md bg-white shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      <div className={`fixed top-0 right-0 h-full w-[600px] max-w-lg bg-white shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="h-full overflow-y-auto">
           {/* Header */}
           <div className="bg-blue-600 text-white p-4 sticky top-0">
